@@ -54,8 +54,8 @@ export default {
 .featuredCont{
     height: 100vh;
     background-image: url('/featured.png');
-    background-size: cover;
-    background-position: center;
+    background-size: 100% 98%;
+    background-position: bottom;
     margin: 1in 0;
 }
 

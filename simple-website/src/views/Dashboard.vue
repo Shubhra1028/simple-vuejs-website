@@ -2,8 +2,8 @@
   <div class="dashboard">
         <v-layout align-center justify-center row wrap class="dash" >
             <v-flex sm6 class="pa-5 " >
-                <h1 class="display-3">Experience a world of food</h1>
-                <p class="headline mt-2">Anywhere - Anytime</p>
+                <h1 class="display-3 white--text">Experience a world of food</h1>
+                <p class="headline mt-2 white--text">Anywhere - Anytime</p>
                 <v-btn round large >Get Started</v-btn>
             </v-flex>
             <v-flex sm6 class="dashImg" >
@@ -28,11 +28,12 @@ export default {
 
 <style scoped>
     .dash{
-        /* background-color: crimson; */
+        background: url('/dash.png');
+        background-size: cover;
+        background-position: center
     }
     .dashImg{
         min-height: 70vh;
-        background: url('http://en.zopix.net/image_upload/201932-dish-restaurant-dining-food.jpg');
         background-size: cover;
         background-position: right;
         transform: skewX(200px)
