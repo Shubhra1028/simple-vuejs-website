@@ -12,6 +12,7 @@
         <whyUs />
         <featuredCont />
         <howItWorks />
+        <comments />
   </div>
 </template>
 
@@ -19,11 +20,14 @@
 import whyUs from '@/components/whyUs'
 import featuredCont from '@/components/featuredCont'
 import howItWorks from '@/components/howItWorks'
+import comments from '@/components/comments'
+
 export default {
     components: {
         whyUs,
         featuredCont,
-        howItWorks
+        howItWorks,
+        comments
     }
   
 }

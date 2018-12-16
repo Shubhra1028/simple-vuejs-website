@@ -2,8 +2,8 @@
     <v-container class="white">
         <h1 class="display-3 text-xs-center mb-5">How It Works?</h1>
         <v-layout row wrap class="py-5">
-            <v-flex sm6 class="mobileApp"></v-flex>
-            <v-flex sm6 class="py-4">
+            <v-flex sm7 class="mobileApp"></v-flex>
+            <v-flex sm5 class="py-4">
                 <v-list two-line>
                     <v-list-tile class="pb-5 workingCards" avatar v-for="item in working" :key="item.icon">
                         <v-list-tile-avatar>

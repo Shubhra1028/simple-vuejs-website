@@ -1,13 +1,15 @@
 <template>
     <div>
-        <v-layout class="featuredCont white" >
+        <v-layout align-center class="featuredCont white white--text" >
             <v-flex md6 class="pa-5 mt-5" >
                 <v-container >
                     <h1 md4 class="display-2">Featured Items on Month</h1>
-                    <p md6 class="subheading mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quidem laborum laboriosam, est natus impedit quia ratione incidunt.</p>
-                    <v-btn large class="mt-4">
+                    <p md6 class="caption mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quidem laborum laboriosam, est natus impedit quia ratione incidunt.</p>
+                    <v-layout>
+                        <v-btn large class="mt-4">
                         <p class="caption">Available on <br /><span class="title">App Store</span> </p>
                     </v-btn>
+                    </v-layout>
                     <v-btn large class="mt-4">
                         <p class="caption">Available on <br /><span class="title">App Store</span> </p>
                     </v-btn>
@@ -55,8 +57,8 @@ export default {
     height: 100vh;
     background-image: url('/featured.png');
     background-color: #fff;
-    background-size: 100% 98%;
-    background-position: bottom;
+    background-size: contain;
+    background-position: center;
     margin: 1in 0;
 }
 
