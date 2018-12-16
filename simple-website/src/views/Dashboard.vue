@@ -1,5 +1,5 @@
 <template>
-  <div class="dashboard">
+  <div class="dashboard white">
         <v-layout align-center justify-center row wrap class="dash" >
             <v-flex sm6 class="pa-5 " >
                 <h1 class="display-3 white--text">Experience a world of food</h1>
@@ -11,16 +11,19 @@
         </v-layout>
         <whyUs />
         <featuredCont />
+        <howItWorks />
   </div>
 </template>
 
 <script>
 import whyUs from '@/components/whyUs'
 import featuredCont from '@/components/featuredCont'
+import howItWorks from '@/components/howItWorks'
 export default {
     components: {
         whyUs,
-        featuredCont
+        featuredCont,
+        howItWorks
     }
   
 }

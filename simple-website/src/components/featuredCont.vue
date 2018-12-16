@@ -1,6 +1,6 @@
 <template>
     <div>
-        <v-layout class="featuredCont" >
+        <v-layout class="featuredCont white" >
             <v-flex md6 class="pa-5 mt-5" >
                 <v-container >
                     <h1 md4 class="display-2">Featured Items on Month</h1>
@@ -54,6 +54,7 @@ export default {
 .featuredCont{
     height: 100vh;
     background-image: url('/featured.png');
+    background-color: #fff;
     background-size: 100% 98%;
     background-position: bottom;
     margin: 1in 0;
