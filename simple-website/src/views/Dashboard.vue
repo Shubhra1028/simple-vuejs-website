@@ -9,25 +9,28 @@
             <v-flex sm6 class="dashImg" >
             </v-flex>
         </v-layout>
-        <whyUs />
-        <featuredCont />
-        <howItWorks />
-        <comments />
+        <WhyUs />
+        <FeaturedCont />
+        <HowItWorks />
+        <Comments />
+        <Subscribe />
   </div>
 </template>
 
 <script>
-import whyUs from '@/components/whyUs'
-import featuredCont from '@/components/featuredCont'
-import howItWorks from '@/components/howItWorks'
-import comments from '@/components/comments'
+import WhyUs from '@/components/whyUs'
+import FeaturedCont from '@/components/featuredCont'
+import HowItWorks from '@/components/howItWorks'
+import Comments from '@/components/comments'
+import Subscribe from '@/components/subscribe'
 
 export default {
     components: {
-        whyUs,
-        featuredCont,
-        howItWorks,
-        comments
+        WhyUs,
+        FeaturedCont,
+        HowItWorks,
+        Comments,
+        Subscribe
     }
   
 }

@@ -1,7 +1,7 @@
 <template>
     <v-layout row align-center class="commentsSection pa-5">
         <v-flex xs6 offset-xs5>
-            <v-card color="white" class="grey--text">
+            <v-card flat color="white" class="grey--text">
               <v-layout>
                 <v-flex xs3 class="pa-3">
                   <v-img
