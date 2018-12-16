@@ -14,6 +14,7 @@
         <HowItWorks />
         <Comments />
         <Subscribe />
+        <Footer />
   </div>
 </template>
 
@@ -23,6 +24,7 @@ import FeaturedCont from '@/components/featuredCont'
 import HowItWorks from '@/components/howItWorks'
 import Comments from '@/components/comments'
 import Subscribe from '@/components/subscribe'
+import Footer from '@/components/footer'
 
 export default {
     components: {
@@ -30,7 +32,8 @@ export default {
         FeaturedCont,
         HowItWorks,
         Comments,
-        Subscribe
+        Subscribe,
+        Footer
     }
   
 }

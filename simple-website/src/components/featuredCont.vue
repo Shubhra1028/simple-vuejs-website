@@ -54,10 +54,11 @@ export default {
 
 <style scoped>
 .featuredCont{
+    min-height: max-content;
     height: 100vh;
     background-image: url('/featured.png');
     background-color: #fff;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     margin: 1in 0;
 }

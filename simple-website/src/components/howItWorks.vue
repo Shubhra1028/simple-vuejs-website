@@ -1,10 +1,10 @@
 <template>
     <v-container class="white">
-        <h1 class="display-3 text-xs-center mb-5">How It Works?</h1>
-        <v-layout row wrap class="py-5">
+        <h1 class="display-3 text-xs-center">How It Works?</h1>
+        <v-layout row wrap class="py-5 featured">
             <v-flex sm7 class="mobileApp"></v-flex>
-            <v-flex sm5 class="py-4">
-                <v-list two-line>
+            <v-flex align-center sm5 class="py-4" fill-height>
+                <v-list two-line align-center>
                     <v-list-tile class="pb-5 workingCards" avatar v-for="item in working" :key="item.icon">
                         <v-list-tile-avatar>
                             <v-icon class="teal lighten-2 white--text"> {{item.icon}} </v-icon>
@@ -14,7 +14,6 @@
                             <v-list-tile-sub-title>{{item.content}}</v-list-tile-sub-title>
                         </v-list-tile-content>
                     </v-list-tile>
-
                 </v-list>
             </v-flex>
         </v-layout>
@@ -53,6 +52,9 @@ export default {
     left: 35px;
     height: 100%;
     content: ""
+}
+.featured{
+    min-height: 90vh;
 }
 
 </style>

@@ -25,11 +25,11 @@
                 </v-flex>
               </v-layout>
               <v-card-actions class="px-3 pb-3 yellow--text">
-                <v-icon>star_border</v-icon>
-                <v-icon>star_border</v-icon>
-                <v-icon>star_border</v-icon>
-                <v-icon>star_border</v-icon>
-                <v-icon>star_border</v-icon>
+                <v-icon>star</v-icon>
+                <v-icon>star</v-icon>
+                <v-icon>star</v-icon>
+                <v-icon>star</v-icon>
+                <v-icon>star</v-icon>
               </v-card-actions>
             </v-card>
           </v-flex>

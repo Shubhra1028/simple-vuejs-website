@@ -17,6 +17,9 @@ export default {
 <style scoped >
 .subscribe{
     height: 40vh;
+    background-image: url('/subscribe.png');
+    background-position: bottom;
+    background-size: cover
 }
 .subscribe.primary--text{
     color: crimson !important;
